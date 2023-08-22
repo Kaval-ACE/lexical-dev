@@ -1,0 +1,65 @@
+{
+  "name": "lexical-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.14.2",
+    "@lexical/code": "0.11.3",
+    "@lexical/file": "^0.12.0",
+    "@lexical/hashtag": "^0.12.0",
+    "@lexical/link": "^0.12.0",
+    "@lexical/list": "^0.8.1",
+    "@lexical/mark": "0.11.3",
+    "@lexical/react": "^0.8.0",
+    "@lexical/rich-text": "^0.12.0",
+    "@lexical/selection": "^0.8.0",
+    "@lexical/table": "0.11.3",
+    "@lexical/utils": "0.11.3",
+    "@lexical/yjs": "^0.12.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.41",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "katex": "^0.16.8",
+    "lexical": "^0.8.0",
+    "lexical-playground": "^1.0.6",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-use": "^17.4.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.2",
+    "@types/lodash-es": "^4.17.8"
+  }
+}
